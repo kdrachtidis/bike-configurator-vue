@@ -1,0 +1,11 @@
+{
+  "scripts": {
+    "dev": "http-server",
+    //"start": "dev start:server",
+    "start:server": "nodemon server.js"
+  },
+  "devDependencies": {
+    "http-server": "^14.1.1",
+    "nodemon": "^3.0.2"
+  }
+}
