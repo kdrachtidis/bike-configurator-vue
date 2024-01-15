@@ -1,8 +1,7 @@
 {
   "scripts": {
     "dev": "http-server",
-    //"start": "dev start:server",
-    "start:server": "nodemon server.js"
+    /*"start": "http-server \" nodemon index.html"*/
   },
   "devDependencies": {
     "http-server": "^14.1.1",
