@@ -5,9 +5,9 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel="icon" type="image/png" sizes="96x96" href="/favicon-96x96.png">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    <link href="node_modules/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+    <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
         crossorigin="anonymous"></script>
     <title>Bike</title>
@@ -21,7 +21,7 @@
             <button type="button" class="btn btn-light">Schliessen</button>
         </form>
     </header>
-    <div class="row">
+    <main class="row">
         <div class="col">
             <nav class="navbar navbar-expand-lg bg-body-tertiary">
                 <div class="container-fluid">
@@ -37,34 +37,99 @@
                     </div>
                 </div>
             </nav>
-            <main class="container-fluid">
-                <section>
-                    <header>
-                        <h3>Rahmen</h3>
-                        <div><button type="button">Kategorie hinzufügen</button></div>
-                    </header>
-                    <div>
-                        <ul>
-                            <li>
-                                <h4>Kategorie</h4>
-                                <div><button type="button">Komponent hinzufügen</button></div>
-                            </li>
-                            <li>
-                                <h4>Kategorie</h4>
-                                <div><button type="button">Komponent hinzufügen</button></div>
-                            </li>
-                            <li>
-                                <h4>Kategorie</h4>
-                                <div><button type="button">Komponent hinzufügen</button></div>
-                            </li>
-                            <li>
-                                <h4>Kategorie</h4>
-                                <div><button type="button">Komponent hinzufügen</button></div>
-                            </li>
-                        </ul>
+            <div class="container overflow-hidden">
+                <div class="row gx-2 gy-2">
+                    <div class="col">
+                        <section class="card">
+                            <div class="card-header">
+                                <nav class="navbar bg-body-tertiary">
+                                    <div class="container-fluid">
+                                        <a class="navbar-brand" href="#">Rahmen</a>
+                                        <form class="d-flex">
+                                            <button type="button" class="btn btn-light"><svg
+                                                    xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                                    fill="currentColor" class="bi bi-plus-square" viewBox="0 0 16 16">
+                                                    <path
+                                                        d="M14 1a1 1 0 0 1 1 1v12a1 1 0 0 1-1 1H2a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1zM2 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2z" />
+                                                    <path
+                                                        d="M8 4a.5.5 0 0 1 .5.5v3h3a.5.5 0 0 1 0 1h-3v3a.5.5 0 0 1-1 0v-3h-3a.5.5 0 0 1 0-1h3v-3A.5.5 0 0 1 8 4" />
+                                                </svg></i></button>
+                                        </form>
+                                    </div>
+                                </nav>
+                            </div>
+                            <ul class="list-group list-group-flush">
+                                <li class="list-group-item">
+                                    <h4>Kategorie</h4>
+                                    <div><button type="button">Komponent hinzufügen</button></div>
+                                </li>
+                                <li class="list-group-item">
+                                    <h4>Kategorie</h4>
+                                    <div><button type="button">Komponent hinzufügen</button></div>
+                                </li>
+                                <li class="list-group-item">
+                                    <h4>Kategorie</h4>
+                                    <div><button type="button">Komponent hinzufügen</button></div>
+                                </li>
+                                <li class="list-group-item">
+                                    <h4>Kategorie</h4>
+                                    <div><button type="button">Komponent hinzufügen</button></div>
+                                </li>
+                            </ul>
+                        </section>
                     </div>
-                </section>
-            </main>
+                    <div class="col">
+                        <section class="card">
+                            <div class="card-header">
+
+                                <button type="button" class="btn btn-light"><svg xmlns="http://www.w3.org/2000/svg"
+                                        width="16" height="16" fill="currentColor" class="bi bi-plus-square"
+                                        viewBox="0 0 16 16">
+                                        <path
+                                            d="M14 1a1 1 0 0 1 1 1v12a1 1 0 0 1-1 1H2a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1zM2 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2z" />
+                                        <path
+                                            d="M8 4a.5.5 0 0 1 .5.5v3h3a.5.5 0 0 1 0 1h-3v3a.5.5 0 0 1-1 0v-3h-3a.5.5 0 0 1 0-1h3v-3A.5.5 0 0 1 8 4" />
+                                    </svg></i></button>
+
+                            </div>
+                            <ul class="list-group list-group-flush">
+                                <li class="list-group-item">
+                                    <h4>Kategorie</h4>
+                                    <div><button type="button">Komponent hinzufügen</button></div>
+                                </li>
+                                <li class="list-group-item">
+                                    <h4>Kategorie</h4>
+                                    <div><button type="button">Komponent hinzufügen</button></div>
+                                </li>
+                                <li class="list-group-item">
+                                    <h4>Kategorie</h4>
+                                    <div><button type="button">Komponent hinzufügen</button></div>
+                                </li>
+                                <li class="list-group-item">
+                                    <h4>Kategorie</h4>
+                                    <div><button type="button">Komponent hinzufügen</button></div>
+                                </li>
+                            </ul>
+                        </section>
+                    </div>
+                    <div class="col">
+                        <section class="card">
+                            <div class="card-body">ok</div>
+                        </section>
+                    </div>
+                    <div class="w-100"></div>
+                    <div class="col">
+                        <section class="card">
+                            <div class="card-body">ok</div>
+                        </section>
+                    </div>
+                    <div class="col">
+                        <section class="card">
+                            <div class="card-body">ok</div>
+                        </section>
+                    </div>
+                </div>
+            </div>
         </div>
 
         <aside class="col-sm-3">
@@ -72,7 +137,7 @@
                 <h2>Komponenten List</h2><button type="button">Filter</button>
             </header>
         </aside>
-    </div>
+    </main>
 </body>
 
 </html>
