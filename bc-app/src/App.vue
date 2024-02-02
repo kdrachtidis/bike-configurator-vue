@@ -12,9 +12,14 @@ import AppConfiguratorModule from './components/AppConfiguratorModule.vue'
       <div class="col">
         <AppConfiguratorHeader />
         <div class="row mt-3">
-          <div class="col-4">
-            <AppConfiguratorModule />
-          </div>
+          <AppConfiguratorModule />
+          <AppConfiguratorModule />
+          <AppConfiguratorModule />
+        </div>
+        <div class="row mt-3">
+          <AppConfiguratorModule />
+          <AppConfiguratorModule />
+          <AppConfiguratorModule />
         </div>
       </div>
       <AppProductList />
