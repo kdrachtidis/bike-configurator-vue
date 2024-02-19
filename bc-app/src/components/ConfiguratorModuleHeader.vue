@@ -1,6 +1,12 @@
+<script setup>
+const props = defineProps({
+    Group: String
+})
+</script>
+
 <template>
     <div class="card-header d-flex justify-content-between">
-        <h4 class="card-title mb-0 mt-1"><!--<i class="bi bi-layout-wtf me-2"></i>-->Antrieb
+        <h4 class="card-title mb-0 mt-1">{{ Group || "Group Empty" }}
         </h4>
         <div>
             <button type="button" class="btn btn-outline-secondary me-2" aria-label="Editieren"><i

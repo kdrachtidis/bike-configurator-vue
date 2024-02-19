@@ -3,6 +3,14 @@ import AppHeader from './components/AppHeader.vue'
 import AppConfiguratorHeader from './components/AppConfiguratorHeader.vue'
 import AppProductList from './components/AppProductList.vue'
 import AppConfiguratorModule from './components/AppConfiguratorModule.vue'
+
+const ModuleItemCategory = ["Adapter-Kits", "Cleats & Schuhplatten", "Fahrradkassetten", "Fahrradketten", "Fahrradkurbeln", "Innenlager", "Kettenblätter", "Kettenführungen & Bashguards", "Kleinteile", "Nabenschaltung", "Pedale", "Riemen", "Riemenscheiben", "Singlespeed", "Verschleißsets"]
+
+const ModuleGroup = ["Antrieb", "Cockpit", "Dämpfer", "Fahrradbremsen", "Fahrradgabeln", "Fahrradrahmen", "Fahrradreifen", "Fahrradschläuche", "Laufräder", "Powermeter", "Sättel", "Sattelstützen", "Schaltung"]
+const ModuleItemCount = 10
+const ModuleSum = "150,00 €"
+
+
 </script>
 
 <template>
@@ -12,14 +20,14 @@ import AppConfiguratorModule from './components/AppConfiguratorModule.vue'
       <div class="col">
         <AppConfiguratorHeader />
         <div class="row mt-3">
-          <AppConfiguratorModule />
-          <AppConfiguratorModule />
-          <AppConfiguratorModule />
+          <AppConfiguratorModule :ModuleGroup="ModuleGroup[0]" :ModuleItemCount="ModuleItemCount" :ModuleSum="ModuleSum" />
+          <AppConfiguratorModule :ModuleGroup="ModuleGroup[1]" :ModuleItemCount="ModuleItemCount" :ModuleSum="ModuleSum" />
+          <AppConfiguratorModule :ModuleGroup="ModuleGroup[3]" :ModuleItemCount="ModuleItemCount" :ModuleSum="ModuleSum" />
         </div>
         <div class="row mt-3">
-          <AppConfiguratorModule />
-          <AppConfiguratorModule />
-          <AppConfiguratorModule />
+          <AppConfiguratorModule :ModuleGroup="ModuleGroup[5]" :ModuleItemCount="ModuleItemCount" :ModuleSum="ModuleSum" />
+          <AppConfiguratorModule :ModuleGroup="ModuleGroup[10]" :ModuleItemCount="ModuleItemCount" :ModuleSum="ModuleSum" />
+          <AppConfiguratorModule :ModuleGroup="ModuleGroup[8]" :ModuleItemCount="ModuleItemCount" :ModuleSum="ModuleSum" />
         </div>
       </div>
       <AppProductList />
