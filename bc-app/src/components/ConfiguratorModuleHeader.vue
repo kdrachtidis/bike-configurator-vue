@@ -1,6 +1,7 @@
 <script setup>
 const props = defineProps({
-    Group: String
+    Group: String,
+    Id: String
 })
 </script>
 
@@ -11,8 +12,8 @@ const props = defineProps({
         <div>
             <button type="button" class="btn btn-outline-secondary me-2" aria-label="Editieren"><i
                     class="bi bi-pencil"></i></button>
-            <button type="button" class="btn btn-outline-secondary" data-bs-toggle="collapse" data-bs-target="#CollapseList"
-                aria-label="Einklappen"><i class="bi bi-arrows-collapse"></i></button>
+            <button type="button" class="btn btn-outline-secondary" data-bs-toggle="collapse" :data-bs-target="Id" aria-label="Einklappen"><i
+                    class="bi bi-arrows-collapse"></i></button>
         </div>
     </div>
 </template>

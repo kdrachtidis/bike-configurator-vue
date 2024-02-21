@@ -13,18 +13,20 @@ const sum = "150,00 €"
 const count = "2"
 
 const props = defineProps({
+    ModuleId: String,
     ModuleGroup: String,
     ModuleItemCount: Number,
     ModuleSum: String
 })
+
 </script>
 
 <template>
     <div class="col-4">
         <section class="card border-secondary mb-3">
-            <ConfiguratorModuleHeader :Group="ModuleGroup" />
+            <ConfiguratorModuleHeader :Id="'#' + ModuleId" :Group="ModuleGroup" />
             <ConfiguratorModuleSubHeader :ItemCount="ModuleItemCount" />
-            <div class="collapse show" id="CollapseList">
+            <div class="collapse show" :id="ModuleId">
                 <div class="card-body p-0 overflow-auto" style="height: 300px;">
                     <ul class="list-group list-group-flush">
                         <ConfiguratorModuleItemCategory :Category="category[0]" />
