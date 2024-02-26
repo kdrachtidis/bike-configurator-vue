@@ -5,7 +5,7 @@ const props = defineProps({
 </script>
 
 <template>
-    <li class="list-group-item d-flex justify-content-between">
+    <li class="list-group-item d-flex justify-content-between bg-dark-subtle">
         <div class="fs-5 fw-light">
             {{ Category || "Category Empty" }}
         </div>

@@ -6,7 +6,7 @@ const props = defineProps({
 </script>
 
 <template>
-    <li class="list-group-item d-flex justify-content-between list-group-item-info">
+    <li class="list-group-item d-flex justify-content-between list-group-item-info bg-dark-subtle">
         <div>
             <p class="card-text lh-sm mb-1">{{ Product || "Product empty" }}
             </p>

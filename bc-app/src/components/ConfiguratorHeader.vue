@@ -1,7 +1,7 @@
 <template>
     <nav class="navbar navbar-expand-md bg-light-subtle rounded">
         <div class="container-fluid">
-            <span class="navbar-brand display-6">Mein Rennrad</span>
+            <span class="navbar-brand">Mein Rennrad</span>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#bikeType"
                 aria-controls="bikeType" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
