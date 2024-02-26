@@ -5,7 +5,7 @@ const props = defineProps({
 </script>
 
 <template>
-    <div class="card-footer d-flex justify-content-between bg-body-tertiary">
+    <div class="card-footer justify-content-between bg-body-tertiary text-end">
         <div class="card-text text-body-secondary">Summe: {{ Sum || "Summary empty" }}</div>
     </div>
 </template>
