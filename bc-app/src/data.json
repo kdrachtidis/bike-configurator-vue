@@ -1,0 +1,46 @@
+[
+    {
+        "categoryname": "Antrieb",
+        "products": [
+            {
+
+            }
+        ]
+    },
+    {
+        "categoryname": "Cockpit"
+    },
+    {
+        "categoryname": "Dämpfer"
+    },
+    {
+        "categoryname": "Fahrradbremsen"
+    },
+    {
+        "categoryname": "Fahrradgabeln"
+    },
+    {
+        "categoryname": "Fahrradrahmen"
+    },
+    {
+        "categoryname": "Fahrradreifen"
+    },
+    {
+        "categoryname": "Fahrradschläuche"
+    },
+    {
+        "categoryname": "Laufräder"
+    },
+    {
+        "categoryname": "Powermeter"
+    },
+    {
+        "categoryname": "Sättel"
+    },
+    {
+        "categoryname": "Sattelstützen"
+    },
+    {
+        "categoryname": "Schaltung"
+    }
+]
