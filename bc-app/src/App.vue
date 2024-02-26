@@ -1,8 +1,8 @@
 <script setup>
 import AppHeader from './components/AppHeader.vue'
-import AppConfiguratorHeader from './components/AppConfiguratorHeader.vue'
-import ConfiguratorProductList from './components/ConfiguratorProductList.vue'
-import ConfiguratorModule from './components/ConfiguratorModule.vue'
+import ConfiguratorHeader from './components/ConfiguratorHeader.vue'
+import ConfiguratorProductList from './components/basket/ConfiguratorProductList.vue'
+import ConfiguratorModule from './components/module/ConfiguratorModule.vue'
 
 const ModuleItemCategory = ["Adapter-Kits", "Cleats & Schuhplatten", "Fahrradkassetten", "Fahrradketten", "Fahrradkurbeln", "Innenlager", "Kettenblätter", "Kettenführungen & Bashguards", "Kleinteile", "Nabenschaltung", "Pedale", "Riemen", "Riemenscheiben", "Singlespeed", "Verschleißsets"]
 
@@ -18,7 +18,7 @@ const ModuleId = ["Module1", "Module2", "Module3", "Module4", "Module5", "Module
   <main class="container-fluid">
     <div class="row mt-3">
       <div class="col">
-        <AppConfiguratorHeader />
+        <ConfiguratorHeader />
         <div class="row mt-3">
           <ConfiguratorModule :ModuleId="ModuleId[0]" :ModuleGroup="ModuleGroup[0]" :ModuleItemCount="ModuleItemCount" :ModuleSum="ModuleSum" />
           <ConfiguratorModule :ModuleId="ModuleId[1]" :ModuleGroup="ModuleGroup[1]" :ModuleItemCount="ModuleItemCount" :ModuleSum="ModuleSum" />

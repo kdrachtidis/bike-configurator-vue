@@ -14,9 +14,15 @@ const product = ["SHIMANO SLX KASSETTE CS-M7000-11 11-FACH", "SHIMANO ULTEGRA KU
             <ConfiguratorProductListItem :Product=product[1] :Category=category[1] />
             <ConfiguratorProductListItem :Product=product[0] :Category=category[2] />
             <ConfiguratorProductListItem :Product=product[1] :Category=category[3] />
-            <ConfiguratorProductListItem :Product=product[0] :Category=category[4] />
-            <ConfiguratorProductListItem :Product=product[1] :Category=category[5] />
-            <ConfiguratorProductListItem :Product=product[0] :Category=category[6] />
+            
+        </ul>
+        <h6>Shop <span class="badge text-bg-secondary">bike-components.de</span></h6>
+        <ul class="list-group list-group-flush">
+            <ConfiguratorProductListItem :Product=product[0] :Category=category[0] />
+            <ConfiguratorProductListItem :Product=product[1] :Category=category[1] />
+            <ConfiguratorProductListItem :Product=product[0] :Category=category[2] />
+            <ConfiguratorProductListItem :Product=product[1] :Category=category[3] />
+            
         </ul>
     </div>
 </template>
