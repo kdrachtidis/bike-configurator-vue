@@ -6,7 +6,7 @@ const props = defineProps({
 </script>
 
 <template>
-    <li class="list-group-item justify-content-between list-group-item-info bg-dark-subtle">
+    <li class="list-group-item justify-content-between bg-dark-subtle">
         <!--<div>
             <p class="card-text lh-sm mb-1">{{ Product || "Product empty" }}
             </p>
@@ -16,13 +16,13 @@ const props = defineProps({
             <button type="button" class="btn btn-sm btn-outline-light" aria-label="Editieren"><i
                     class="bi bi-pencil"></i></button>
         </div>-->
-        <div class="row">
-            <div class="col-10">{{ Product || "Product empty" }}</div>
+        <div class="row justify-content-between">
+            <div class="col-10"><a href="#" class="link-light link-underline-secondary link-offset-1">{{ Product || "Product empty" }}</a></div>
             <div class="col-2"> <button type="button" class="btn btn-sm btn-outline-light" aria-label="Editieren"><i
                     class="bi bi-pencil"></i></button></div>
         </div>
-        <div class="row">
-            {{ Category || "Category empty" }}
+        <div class="row justify-content-between">
+            <div class="col-10 text-body-tertiary">{{ Category || "Category empty" }}</div>
         </div>
     </li>
 </template>

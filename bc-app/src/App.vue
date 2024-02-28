@@ -19,6 +19,7 @@ const ModuleId = ["Module1", "Module2", "Module3", "Module4", "Module5", "Module
     <div class="row mt-3">
       <div class="col">
         <ConfiguratorHeader />
+        <i class="bi bi-bicycle"></i>
         <div class="row mt-3">
           <ConfiguratorModule :ModuleId="ModuleId[0]" :ModuleGroup="ModuleGroup[0]" :ModuleItemCount="ModuleItemCount" :ModuleSum="ModuleSum" />
           <ConfiguratorModule :ModuleId="ModuleId[1]" :ModuleGroup="ModuleGroup[1]" :ModuleItemCount="ModuleItemCount" :ModuleSum="ModuleSum" />
