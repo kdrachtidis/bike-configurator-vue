@@ -1,46 +1,278 @@
 [
     {
-        "categoryname": "Antrieb",
-        "products": [
+        "groupname": "Antrieb",
+        "categories": [
             {
-
+                "categoryname": "Adapter-Kits",
+                "products": [
+                    {
+                        "name": "",
+                        "price": "",
+                        "shop": ""
+                    }
+                ]
+            },
+            {
+                "categoryname": "Cleats & Schuhplatten"
+            },
+            {
+                "categoryname": "Fahrradkassetten"
+            },
+            {
+                "categoryname": "Fahrradketten"
+            },
+            {
+                "categoryname": "Fahrradkurbeln"
+            },
+            {
+                "categoryname": "Innenlager"
+            },
+            {
+                "categoryname": "Kettenblätter"
+            },
+            {
+                "categoryname": "Kettenführungen & Bashguards"
+            },
+            {
+                "categoryname": "Kleinteile"
+            },
+            {
+                "categoryname": "Nabenschaltung"
+            },
+            {
+                "categoryname": "Pedale"
+            },
+            {
+                "categoryname": "Riemen"
+            },
+            {
+                "categoryname": "Riemenscheiben"
+            },
+            {
+                "categoryname": "Singlespeed"
+            },
+            {
+                "categoryname": "Verschleißsets"
             }
         ]
     },
     {
-        "categoryname": "Cockpit"
+        "groupname": "Cockpit",
+        "categories": [
+            {
+                "categoryname": "Bar Ends"
+            },
+            {
+                "categoryname": "Integrierte Cockpits"
+            },
+            {
+                "categoryname": "Kleinteile"
+            },
+            {
+                "categoryname": "Lenker-Komfort"
+            },
+            {
+                "categoryname": "Lenker-Mountainbike"
+            },
+            {
+                "categoryname": "Lenker-Rennrad"
+            },
+            {
+                "categoryname": "Lenkeraufsätze"
+            },
+            {
+                "categoryname": "Lenkerbänder"
+            },
+            {
+                "categoryname": "Lenkergriffe"
+            },
+            {
+                "categoryname": "Spacer"
+            },
+            {
+                "categoryname": "Steuersätze"
+            },
+            {
+                "categoryname": "Vorbauten"
+            }
+        ]
     },
     {
-        "categoryname": "Dämpfer"
+        "groupname": "Dämpfer",
+        "categories": [
+            {
+                "categoryname": "Dämpfer"
+            },
+            {
+                "categoryname": "Dämpferbuchsen"
+            },
+            {
+                "categoryname": "Federgabel- & Dämpferpumpen"
+            },
+            {
+                "categoryname": "Federn"
+            },
+            {
+                "categoryname": "Kleinteile"
+            }
+        ]
     },
     {
-        "categoryname": "Fahrradbremsen"
+        "groupname": "Fahrradbremsen",
+        "categories": [
+            {
+                "categoryname": "Adapter"
+            },
+            {
+                "categoryname": "Außenhüllen"
+            },
+            {
+                "categoryname": "Bremsflüssigkeit"
+            },
+            {
+                "categoryname": "Bremsgriffe"
+            },
+            {
+                "categoryname": "Bremsleitungen"
+            },
+            {
+                "categoryname": "Bremsscheiben"
+            },
+            {
+                "categoryname": "Entlüftungskits"
+            },
+            {
+                "categoryname": "Felgenbremsbeläge"
+            },
+            {
+                "categoryname": "Felgenbremsen"
+            },
+            {
+                "categoryname": "Innenzüge"
+            },
+            {
+                "categoryname": "Kleinteile"
+            },
+            {
+                "categoryname": "Scheibenbremsbeläge"
+            },
+            {
+                "categoryname": "Scheibenbremsen"
+            }
+        ]
     },
     {
-        "categoryname": "Fahrradgabeln"
+        "groupname": "Fahrradgabeln",
+        "categories": [
+            {
+                "categoryname": "20-24 Federgabeln"
+            },
+            {
+                "categoryname": "26 Federgabeln"
+            },
+            {
+                "categoryname": "27,5 Federgabeln"
+            },
+            {
+                "categoryname": "28 Federgabeln"
+            },
+            {
+                "categoryname": "29 Federgabeln"
+            },
+            {
+                "categoryname": "Federgabel- & Dämpferpumpen"
+            },
+            {
+                "categoryname": "Federn"
+            },
+            {
+                "categoryname": "Gabelöl"
+            },
+            {
+                "categoryname": "Kleinteile"
+            },
+            {
+                "categoryname": "Starrgabeln"
+            }
+        ]
     },
     {
-        "categoryname": "Fahrradrahmen"
+        "groupname": "Fahrradrahmen",
+        "categories": [
+            {
+                "categoryname": "Cyclocross & Gravel"
+            },
+            {
+                "categoryname": "Kleinteile"
+            },
+            {
+                "categoryname": "Mountainbike - Fully"
+            },
+            {
+                "categoryname": "Mountainbike - Hardtail"
+            },
+            {
+                "categoryname": "Rahmenschützer"
+            },
+            {
+                "categoryname": "Rennrad"
+            },
+            {
+                "categoryname": "Schaltaugen"
+            },
+            {
+                "categoryname": "Trekking"
+            }
+        ]
     },
     {
-        "categoryname": "Fahrradreifen"
+        "groupname": "Fahrradreifen",
+        "categories": [
+            {
+                "categoryname": "12-24 Reifen"
+            },
+            {
+                "categoryname": "26 Reifen"
+            },
+            {
+                "categoryname": "27,5 Reifen"
+            },
+            {
+                "categoryname": "28 Reifen"
+            },
+            {
+                "categoryname": "29 Reifen"
+            },
+            {
+                "categoryname": "Flickzeug"
+            },
+            {
+                "categoryname": "Kleinteile"
+            },
+            {
+                "categoryname": "Schlauchreifen Zubehör"
+            },
+            {
+                "categoryname": "Tubeless Zubehör"
+            }
+        ]
     },
     {
-        "categoryname": "Fahrradschläuche"
+        "groupname": "Fahrradschläuche"
     },
     {
-        "categoryname": "Laufräder"
+        "groupname": "Laufräder"
     },
     {
-        "categoryname": "Powermeter"
+        "groupname": "Powermeter"
     },
     {
-        "categoryname": "Sättel"
+        "groupname": "Sättel"
     },
     {
-        "categoryname": "Sattelstützen"
+        "groupname": "Sattelstützen"
     },
     {
-        "categoryname": "Schaltung"
+        "groupname": "Schaltung"
     }
 ]
