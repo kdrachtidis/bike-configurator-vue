@@ -13,6 +13,18 @@ const ModuleId = ["Module1", "Module2", "Module3", "Module4", "Module5", "Module
 
 </script>
 
+<script>
+import productData from './assets/products.json'
+
+export default {
+  data() {
+    return {
+      products: productData
+    }
+  }
+}
+</script>
+
 <template>
   <AppHeader />
   <main class="container-fluid">
@@ -21,14 +33,20 @@ const ModuleId = ["Module1", "Module2", "Module3", "Module4", "Module5", "Module
         <ConfiguratorHeader />
         <i class="bi bi-bicycle"></i>
         <div class="row mt-3">
-          <ConfiguratorModule :ModuleId="ModuleId[0]" :ModuleGroup="ModuleGroup[0]" :ModuleItemCount="ModuleItemCount" :ModuleSum="ModuleSum" />
-          <ConfiguratorModule :ModuleId="ModuleId[1]" :ModuleGroup="ModuleGroup[1]" :ModuleItemCount="ModuleItemCount" :ModuleSum="ModuleSum" />
-          <ConfiguratorModule :ModuleId="ModuleId[2]" :ModuleGroup="ModuleGroup[3]" :ModuleItemCount="ModuleItemCount" :ModuleSum="ModuleSum" />
+          <ConfiguratorModule :ModuleId="ModuleId[0]" :ModuleGroup="ModuleGroup[0]" :ModuleItemCount="ModuleItemCount"
+            :ModuleSum="ModuleSum" />
+          <ConfiguratorModule :ModuleId="ModuleId[1]" :ModuleGroup="ModuleGroup[1]" :ModuleItemCount="ModuleItemCount"
+            :ModuleSum="ModuleSum" />
+          <ConfiguratorModule :ModuleId="ModuleId[2]" :ModuleGroup="ModuleGroup[3]" :ModuleItemCount="ModuleItemCount"
+            :ModuleSum="ModuleSum" />
         </div>
         <div class="row mt-3">
-          <ConfiguratorModule :ModuleId="ModuleId[3]" :ModuleGroup="ModuleGroup[5]" :ModuleItemCount="ModuleItemCount" :ModuleSum="ModuleSum" />
-          <ConfiguratorModule :ModuleId="ModuleId[4]" :ModuleGroup="ModuleGroup[10]" :ModuleItemCount="ModuleItemCount" :ModuleSum="ModuleSum" />
-          <ConfiguratorModule :ModuleId="ModuleId[5]" :ModuleGroup="ModuleGroup[8]" :ModuleItemCount="ModuleItemCount" :ModuleSum="ModuleSum" />
+          <ConfiguratorModule :ModuleId="ModuleId[3]" :ModuleGroup="ModuleGroup[5]" :ModuleItemCount="ModuleItemCount"
+            :ModuleSum="ModuleSum" />
+          <ConfiguratorModule :ModuleId="ModuleId[4]" :ModuleGroup="ModuleGroup[10]" :ModuleItemCount="ModuleItemCount"
+            :ModuleSum="ModuleSum" />
+          <ConfiguratorModule :ModuleId="ModuleId[5]" :ModuleGroup="ModuleGroup[8]" :ModuleItemCount="ModuleItemCount"
+            :ModuleSum="ModuleSum" />
         </div>
       </div>
       <ConfiguratorProductList />
