@@ -42,23 +42,23 @@ export default {
             <div class="collapse show" :id="ModuleId">
                 <div class="card-body p-0 overflow-auto" style="height: 300px;">
                     <ul class="list-group list-group-flush">
-                        <ConfiguratorModuleItemCategory :Category="productData[0].categories[0].categoryname" />
-                        <ConfiguratorModuleItemCategory :Category="productData[0].categories[1].categoryname" />
-                        <ConfiguratorModuleItemProduct :Product="productData[0].categories[2].products[0].name"
-                            :Category="productData[0].categories[2].categoryname" />
-                        <ConfiguratorModuleItemCategory :Category="productData[0].categories[3].categoryname" />
-                        <ConfiguratorModuleItemProduct :Product="productData[0].categories[4].products[0].name"
-                            :Category="productData[0].categories[4].categoryname" />
-                        <ConfiguratorModuleItemCategory :Category="productData[0].categories[5].categoryname" />
-                        <ConfiguratorModuleItemCategory :Category="productData[0].categories[6].categoryname" />
-                        <ConfiguratorModuleItemCategory :Category="productData[0].categories[7].categoryname" />
-                        <ConfiguratorModuleItemCategory :Category="productData[0].categories[8].categoryname" />
-                        <ConfiguratorModuleItemCategory :Category="productData[0].categories[9].categoryname" />
-                        <ConfiguratorModuleItemCategory :Category="productData[0].categories[10].categoryname" />
-                        <ConfiguratorModuleItemCategory :Category="productData[0].categories[11].categoryname" />
-                        <ConfiguratorModuleItemCategory :Category="productData[0].categories[12].categoryname" />
-                        <ConfiguratorModuleItemCategory :Category="productData[0].categories[13].categoryname" />
-                        <ConfiguratorModuleItemCategory :Category="productData[0].categories[14].categoryname" />
+                        <ConfiguratorModuleItemCategory :Category="products[0].categories[0].categoryname" />
+                        <ConfiguratorModuleItemCategory :Category="products[0].categories[1].categoryname" />
+                        <ConfiguratorModuleItemProduct :Product="products[0].categories[2].categoryproducts[0].name"
+                            :Category="products[0].categories[2].categoryname" />
+                        <ConfiguratorModuleItemCategory :Category="products[0].categories[3].categoryname" />
+                        <ConfiguratorModuleItemProduct :Product="products[0].categories[4].categoryproducts[0].name"
+                            :Category="products[0].categories[4].categoryname" />
+                        <ConfiguratorModuleItemCategory :Category="products[0].categories[5].categoryname" />
+                        <ConfiguratorModuleItemCategory :Category="products[0].categories[6].categoryname" />
+                        <ConfiguratorModuleItemCategory :Category="products[0].categories[7].categoryname" />
+                        <ConfiguratorModuleItemCategory :Category="products[0].categories[8].categoryname" />
+                        <ConfiguratorModuleItemCategory :Category="products[0].categories[9].categoryname" />
+                        <ConfiguratorModuleItemCategory :Category="products[0].categories[10].categoryname" />
+                        <ConfiguratorModuleItemCategory :Category="products[0].categories[11].categoryname" />
+                        <ConfiguratorModuleItemCategory :Category="products[0].categories[12].categoryname" />
+                        <ConfiguratorModuleItemCategory :Category="products[0].categories[13].categoryname" />
+                        <ConfiguratorModuleItemCategory :Category="products[0].categories[14].categoryname" />
                     </ul>
                 </div>
             </div>

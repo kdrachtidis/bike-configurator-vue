@@ -4,7 +4,7 @@
         "categories": [
             {
                 "categoryname": "Adapter-Kits",
-                "products": [
+                "categoryproducts": [
                     {
                         "name": "ACROS GXP ADAPTER-SET FÜR A-BB INNENLAGER",
                         "price": "18,99",
@@ -39,7 +39,7 @@
             },
             {
                 "categoryname": "Cleats & Schuhplatten",
-                "products": [
+                "categoryproducts": [
                     {
                         "name": "BBB CLICK & GO BPD-01 CLEATS",
                         "price": "13,99",
@@ -74,7 +74,7 @@
             },
             {
                 "categoryname": "Fahrradkassetten",
-                "products": [
+                "categoryproducts": [
                     {
                         "name": "CAMPAGNOLO 11-FACH KASSETTE",
                         "price": "109,99",
@@ -85,7 +85,7 @@
             },
             {
                 "categoryname": "Fahrradketten",
-                "products": [
+                "categoryproducts": [
                     {
                         "name": "CAMPAGNOLO 11-FACH KETTE",
                         "price": "31,99",
@@ -96,7 +96,7 @@
             },
             {
                 "categoryname": "Fahrradkurbeln",
-                "products": [
+                "categoryproducts": [
                     {
                         "name": "SHIMANO 105 KURBELGARNITUR FC-R7000 HOLLOWTECH II",
                         "price": "118,99",
@@ -107,7 +107,7 @@
             },
             {
                 "categoryname": "Innenlager",
-                "products": [
+                "categoryproducts": [
                     {
                         "name": "SHIMANO XT / SLX INNENLAGER BB-MT801 HOLLOWTECH II",
                         "price": "13,99",
@@ -118,7 +118,7 @@
             },
             {
                 "categoryname": "Kettenblätter",
-                "products": [
+                "categoryproducts": [
                     {
                         "name": "SHIMANO XT KETTENBLATT FC-M780 / FC-T780 / FC-T781 10-FACH",
                         "price": "15,99",
@@ -129,7 +129,7 @@
             },
             {
                 "categoryname": "Kettenführungen & Bashguards",
-                "products": [
+                "categoryproducts": [
                     {
                         "name": "77DESIGNZ CRASH PLATE V2 ISCG 05 TACO BASHGUARD",
                         "price": "24,99",
@@ -140,7 +140,7 @@
             },
             {
                 "categoryname": "Kleinteile",
-                "products": [
+                "categoryproducts": [
                     {
                         "name": "KMC MISSINGLINK KETTENSCHLOSS WIEDERVERWENDBAR",
                         "price": "3,99",
@@ -151,7 +151,7 @@
             },
             {
                 "categoryname": "Nabenschaltung",
-                "products": [
+                "categoryproducts": [
                     {
                         "name": "ROHLOFF SPEEDHUB 500/14 CC SCHNELLSPANNER 135 MM GETRIEBENABE",
                         "price": "1.160,00",
@@ -162,7 +162,7 @@
             },
             {
                 "categoryname": "Pedale",
-                "products": [
+                "categoryproducts": [
                     {
                         "name": "SHIMANO PLATTFORMPEDALE PD-EF202",
                         "price": "29,99",
@@ -173,7 +173,7 @@
             },
             {
                 "categoryname": "Riemen",
-                "products": [
+                "categoryproducts": [
                     {
                         "name": "GATES CDX RIEMEN",
                         "price": "63,99",
@@ -184,7 +184,7 @@
             },
             {
                 "categoryname": "Riemenscheiben",
-                "products": [
+                "categoryproducts": [
                     {
                         "name": "GATES CDX VORDERE RIEMENSCHEIBE 4-ARM 104 MM LOCHKREIS",
                         "price": "94,99",
@@ -195,7 +195,7 @@
             },
             {
                 "categoryname": "Singlespeed",
-                "products": [
+                "categoryproducts": [
                     {
                         "name": "DMR SINGLE SPEED SPACER KIT",
                         "price": "19,99",
@@ -206,7 +206,7 @@
             },
             {
                 "categoryname": "Verschleißsets",
-                "products": [
+                "categoryproducts": [
                     {
                         "name": "SHIMANO XT KASSETTE CS-M8000 + KETTE CN-HG701 11-FACH VERSCHLEISSSET",
                         "price": "99,99",
@@ -222,7 +222,7 @@
         "categories": [
             {
                 "categoryname": "Bar Ends",
-                "products": [
+                "categoryproducts": [
                     {
                         "name": "SQLAB 410/402 INNERBARENDS",
                         "price": "37,99",
@@ -233,7 +233,7 @@
             },
             {
                 "categoryname": "Integrierte Cockpits",
-                "products": [
+                "categoryproducts": [
                     {
                         "name": "SPECIALIZED ROVAL RAPIDE CARBON LENKER-VORBAU-EINHEIT",
                         "price": "549,00",
@@ -244,7 +244,7 @@
             },
             {
                 "categoryname": "Kleinteile",
-                "products": [
+                "categoryproducts": [
                     {
                         "name": "SRAM MATCHMAKER X KLEMMSCHELLEN",
                         "price": "24,99",
@@ -255,7 +255,7 @@
             },
             {
                 "categoryname": "Lenker-Komfort",
-                "products": [
+                "categoryproducts": [
                     {
                         "name": "NITTO PROMENADE B-260AAF 25.4 LENKER",
                         "price": "49,99",
@@ -266,7 +266,7 @@
             },
             {
                 "categoryname": "Lenker-Mountainbike",
-                "products": [
+                "categoryproducts": [
                     {
                         "name": "ONEUP COMPONENTS 35 MM 35 ALUMINUM RISER LENKER",
                         "price": "98,99",
@@ -277,7 +277,7 @@
             },
             {
                 "categoryname": "Lenker-Rennrad",
-                "products": [
+                "categoryproducts": [
                     {
                         "name": "RITCHEY COMP VENTUREMAX V2 31.8 LENKER",
                         "price": "43,99",
@@ -288,7 +288,7 @@
             },
             {
                 "categoryname": "Lenkeraufsätze",
-                "products": [
+                "categoryproducts": [
                     {
                         "name": "PROFILE DESIGN NEOSONIC ERGO 45AR LENKERAUFSATZ",
                         "price": "149,99",
@@ -299,7 +299,7 @@
             },
             {
                 "categoryname": "Lenkerbänder",
-                "products": [
+                "categoryproducts": [
                     {
                         "name": "LIZARD SKINS DSP 3.2 V2 LENKERBAND",
                         "price": "35,99",
@@ -310,7 +310,7 @@
             },
             {
                 "categoryname": "Lenkergriffe",
-                "products": [
+                "categoryproducts": [
                     {
                         "name": "TRUVATIV DESCENDANT LENKERGRIFFE",
                         "price": "22,99",
@@ -321,7 +321,7 @@
             },
             {
                 "categoryname": "Spacer",
-                "products": [
+                "categoryproducts": [
                     {
                         "name": "KCNC HEADSET SPACER SET FÜR 1 1/8 5-TEILIG",
                         "price": "7,99",
@@ -332,7 +332,7 @@
             },
             {
                 "categoryname": "Steuersätze",
-                "products": [
+                "categoryproducts": [
                     {
                         "name": "HOPE ZS44/28,6 2 STEUERSATZ OBERTEIL",
                         "price": "43,99",
@@ -343,7 +343,7 @@
             },
             {
                 "categoryname": "Vorbauten",
-                "products": [
+                "categoryproducts": [
                     {
                         "name": "LEVELNINE TEAM AM MTB 35 VORBAU",
                         "price": "18,99",
@@ -359,7 +359,7 @@
         "categories": [
             {
                 "categoryname": "Dämpfer",
-                "products": [
+                "categoryproducts": [
                     {
                         "name": "ÖHLINS TTX 22 M.2 COIL DÄMPFER",
                         "price": "889,00",
@@ -370,7 +370,7 @@
             },
             {
                 "categoryname": "Dämpferbuchsen",
-                "products": [
+                "categoryproducts": [
                     {
                         "name": "ROCKSHOX EINBAUBUCHSEN FÜR FEDERBEINE 8 MM METRISCH/IMPERIAL",
                         "price": "8,99",
@@ -381,7 +381,7 @@
             },
             {
                 "categoryname": "Federgabel- & Dämpferpumpen",
-                "products": [
+                "categoryproducts": [
                     {
                         "name": "ROCKSHOX DÄMPFERPUMPE / MINIPUMPE 20 BAR",
                         "price": "24,99",
@@ -392,7 +392,7 @@
             },
             {
                 "categoryname": "Federn",
-                "products": [
+                "categoryproducts": [
                     {
                         "name": "ÖHLINS STAHLFEDER FÜR TTX 22 M FÜR 58 - 67 MM HUB",
                         "price": "108,99",
@@ -403,7 +403,7 @@
             },
             {
                 "categoryname": "Kleinteile",
-                "products": [
+                "categoryproducts": [
                     {
                         "name": "FOX RACING SHOX TWO POSITION REMOTE HEBEL MODELL 2022",
                         "price": "69,99",
