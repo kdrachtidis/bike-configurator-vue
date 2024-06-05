@@ -1,7 +1,7 @@
 <template>
     <nav class="navbar navbar-expand-md bg-light-subtle rounded">
         <div class="container-fluid">
-            <span class="navbar-brand">{{ $translate('de.TemplateName') }}</span>
+            <span class="navbar-brand">{{ $t('TemplateName') }}</span>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#bikeType"
                 aria-controls="bikeType" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -16,7 +16,7 @@
                     </li>
                 </ul>
                 <form class="d-flex"><button type="button" class="btn btn-sm btn-outline-secondary"
-                        aria-label="Baugruppe hinzufügen">{{ $translate('de.TemplateButtonAddComp') }}</button></form>
+                        aria-label="Baugruppe hinzufügen">{{ $t('TemplateButtonAddComp') }}</button></form>
             </div>
         </div>
     </nav>
