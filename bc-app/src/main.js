@@ -5,25 +5,16 @@ import 'bootstrap/dist/js/bootstrap'
 import { createApp } from 'vue'
 import { createI18n } from 'vue-i18n'
 
+import { languages } from './assets/i18n/index.js'
+
 import App from './App.vue'
+
+const messages = Object.assign(languages)
 
 const i18n = createI18n({
     locale: 'de',
     fallbackLocale: 'en',
-    messages: {
-        en: {
-            TemplateName: 'My Road Bike',
-            TemplateButtonAddComp: 'Add Components Group'
-        },
-        de: {
-            TemplateName: 'Mein Rennrad',
-            TemplateButtonAddComp: 'Baugruppe hinzufügen'
-        },
-        gr: {
-            TemplateName: 'Το αγωνιστικό μου',
-            TemplateButtonAddComp: 'Πρόσθεσε ομάδα'
-        }
-    }
+    messages
 })
 
 const app = createApp(App)

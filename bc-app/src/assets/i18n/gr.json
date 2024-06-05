@@ -1,6 +1,4 @@
-[
-    {
-        "TemplateName": "Το αγωνιστικό μου",
-        "TemplateButtonAddComp": "Πρόσθεσε ομάδα"
-    }
-]
+{
+    "TemplateName": "Το αγωνιστικό μου",
+    "TemplateButtonAddComp": "Πρόσθεσε ομάδα"
+}

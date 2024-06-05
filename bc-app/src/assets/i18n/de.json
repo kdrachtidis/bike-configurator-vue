@@ -1,6 +1,4 @@
-[
-    {
-        "TemplateName": "Mein Rennrad",
-        "TemplateButtonAddComp": "Baugruppe hinzufügen"
-    }
-]
+{
+    "TemplateName": "Mein Rennrad",
+    "TemplateButtonAddComp": "Baugruppe hinzufügen"
+}
