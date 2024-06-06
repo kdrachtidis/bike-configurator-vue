@@ -9,7 +9,7 @@ import { languages } from './assets/i18n/index.js'
 
 import App from './App.vue'
 
-const messages = Object.assign(languages)
+const messages = Object(languages)
 
 const i18n = createI18n({
     locale: 'de',
