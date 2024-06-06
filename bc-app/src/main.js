@@ -6,13 +6,14 @@ import { createApp } from 'vue'
 import { createI18n } from 'vue-i18n'
 
 import { languages } from './assets/i18n/index.js'
+import { defaultLocale } from './assets/i18n/index.js'
 
 import App from './App.vue'
 
 const messages = Object(languages)
 
 const i18n = createI18n({
-    locale: 'de',
+    locale: defaultLocale,
     fallbackLocale: 'en',
     messages
 })
