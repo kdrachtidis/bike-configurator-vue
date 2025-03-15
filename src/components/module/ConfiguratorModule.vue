@@ -1,7 +1,7 @@
 <script>
 import { ref } from 'vue'
 
-import productData from '../../assets/products.json'
+import groupsData from '../../assets/groups.json'
 
 import ConfiguratorModuleHeader from './ConfiguratorModuleHeader.vue'
 import ConfiguratorModuleFooter from './ConfiguratorModuleFooter.vue'
@@ -28,7 +28,7 @@ export default {
     },
     data() {
         return {
-            products: productData
+            groups: groupsData
         }
     }
 }
@@ -42,7 +42,11 @@ export default {
             <div class="collapse show" :id="ModuleId">
                 <div class="card-body p-0 overflow-auto" style="height: 300px;">
                     <ul class="list-group list-group-flush">
-                        <ConfiguratorModuleItemCategory :Category="products[0].categories[0].categoryname" />
+                        <li v-for="group in groups">
+                            <ConfiguratorModuleItemCategory :Category="group.name" />
+                        </li>
+
+                        <!--<ConfiguratorModuleItemCategory :Category="products[0].categories[0].categoryname" />
                         <ConfiguratorModuleItemCategory :Category="products[0].categories[1].categoryname" />
                         <ConfiguratorModuleItemProduct :Product="products[0].categories[2].categoryproducts[0].name"
                             :Category="products[0].categories[2].categoryname" />
@@ -58,7 +62,7 @@ export default {
                         <ConfiguratorModuleItemCategory :Category="products[0].categories[11].categoryname" />
                         <ConfiguratorModuleItemCategory :Category="products[0].categories[12].categoryname" />
                         <ConfiguratorModuleItemCategory :Category="products[0].categories[13].categoryname" />
-                        <ConfiguratorModuleItemCategory :Category="products[0].categories[14].categoryname" />
+                        <ConfiguratorModuleItemCategory :Category="products[0].categories[14].categoryname" />-->
                     </ul>
                 </div>
             </div>
