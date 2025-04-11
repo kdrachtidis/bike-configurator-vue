@@ -32,7 +32,7 @@ export default {
       <div class="col">
         <ConfiguratorHeader />
         <div class="container">
-          <div class="row mt-3 row-cols-3">
+          <div class="row mt-3 row-cols-1 row-cols-sm-2 row-cols-md-2 row-cols-lg-3 row-cols-xl-4 row-cols-xxl-4">
             <div v-for="group in groups">
               <ConfiguratorModule :ModuleId="group.id" :ModuleGroup="group.name" :ModuleItemCount="ModuleItemCount"
                 :ModuleSum="ModuleSum" />
