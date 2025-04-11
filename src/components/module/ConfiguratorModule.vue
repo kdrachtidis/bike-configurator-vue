@@ -1,7 +1,7 @@
 <script>
 import { ref } from 'vue'
 
-import groupsData from '../../assets/groups.json'
+import groupmodulesData from '../../assets/groupmodules.json'
 
 import ConfiguratorModuleHeader from './ConfiguratorModuleHeader.vue'
 import ConfiguratorModuleFooter from './ConfiguratorModuleFooter.vue'
@@ -28,45 +28,25 @@ export default {
     },
     data() {
         return {
-            groups: groupsData
+            groupmodules: groupmodulesData
         }
     }
 }
 </script>
 
 <template>
-    <div class="col-4">
+    
         <section class="card border-secondary mb-3">
             <ConfiguratorModuleHeader :Id="'#' + ModuleId" :Group="ModuleGroup" />
             <ConfiguratorModuleSubHeader :ItemCount="ModuleItemCount" />
             <div class="collapse show" :id="ModuleId">
                 <div class="card-body p-0 overflow-auto" style="height: 300px;">
-                    <ul class="list-group list-group-flush">
-                        <li v-for="group in groups">
-                            <ConfiguratorModuleItemCategory :Category="group.name" />
-                        </li>
-
-                        <!--<ConfiguratorModuleItemCategory :Category="products[0].categories[0].categoryname" />
-                        <ConfiguratorModuleItemCategory :Category="products[0].categories[1].categoryname" />
-                        <ConfiguratorModuleItemProduct :Product="products[0].categories[2].categoryproducts[0].name"
-                            :Category="products[0].categories[2].categoryname" />
-                        <ConfiguratorModuleItemCategory :Category="products[0].categories[3].categoryname" />
-                        <ConfiguratorModuleItemProduct :Product="products[0].categories[4].categoryproducts[0].name"
-                            :Category="products[0].categories[4].categoryname" />
-                        <ConfiguratorModuleItemCategory :Category="products[0].categories[5].categoryname" />
-                        <ConfiguratorModuleItemCategory :Category="products[0].categories[6].categoryname" />
-                        <ConfiguratorModuleItemCategory :Category="products[0].categories[7].categoryname" />
-                        <ConfiguratorModuleItemCategory :Category="products[0].categories[8].categoryname" />
-                        <ConfiguratorModuleItemCategory :Category="products[0].categories[9].categoryname" />
-                        <ConfiguratorModuleItemCategory :Category="products[0].categories[10].categoryname" />
-                        <ConfiguratorModuleItemCategory :Category="products[0].categories[11].categoryname" />
-                        <ConfiguratorModuleItemCategory :Category="products[0].categories[12].categoryname" />
-                        <ConfiguratorModuleItemCategory :Category="products[0].categories[13].categoryname" />
-                        <ConfiguratorModuleItemCategory :Category="products[0].categories[14].categoryname" />-->
+                    <ul v-for="groupmodule in groupmodules" class="list-group list-group-flush">
+                        <ConfiguratorModuleItemCategory :Category="groupmodule.name" />
                     </ul>
                 </div>
             </div>
             <ConfiguratorModuleFooter :Sum="ModuleSum" />
         </section>
-    </div>
+    
 </template>

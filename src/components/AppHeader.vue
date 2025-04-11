@@ -36,9 +36,6 @@ function theme(event) {
                             <button type="button" class="btn btn-outline-secondary" aria-label="Laden">Laden</button>
                         </li>
                     </ul>
-
-
-
                 </form>
             </div>
         </nav>

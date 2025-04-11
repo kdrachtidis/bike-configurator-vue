@@ -14,12 +14,12 @@ const ModuleId = ["Module1", "Module2", "Module3", "Module4", "Module5", "Module
 </script>
 
 <script>
-import productData from './assets/products.json'
+import groupData from './assets/groups.json'
 
 export default {
   data() {
     return {
-      products: productData
+      groups: groupData
     }
   }
 }
@@ -31,28 +31,18 @@ export default {
     <div class="row mt-3">
       <div class="col">
         <ConfiguratorHeader />
-        <div class="row z-n1">
-          <bicycle />
-        </div>
-        <div class="row mt-3 z-3">
-          <ConfiguratorModule :ModuleId="ModuleId[0]" :ModuleGroup="productData[0].groupname"
-            :ModuleItemCount="ModuleItemCount" :ModuleSum="ModuleSum" />
-          <ConfiguratorModule :ModuleId="ModuleId[1]" :ModuleGroup="productData[1].groupname"
-            :ModuleItemCount="ModuleItemCount" :ModuleSum="ModuleSum" />
-          <ConfiguratorModule :ModuleId="ModuleId[2]" :ModuleGroup="productData[3].groupname"
-            :ModuleItemCount="ModuleItemCount" :ModuleSum="ModuleSum" />
-        </div>
-
-        <div class="row mt-3">
-          <ConfiguratorModule :ModuleId="ModuleId[3]" :ModuleGroup="productData[5].groupname"
-            :ModuleItemCount="ModuleItemCount" :ModuleSum="ModuleSum" />
-          <ConfiguratorModule :ModuleId="ModuleId[4]" :ModuleGroup="productData[10].groupname"
-            :ModuleItemCount="ModuleItemCount" :ModuleSum="ModuleSum" />
-          <ConfiguratorModule :ModuleId="ModuleId[5]" :ModuleGroup="productData[8].groupname"
-            :ModuleItemCount="ModuleItemCount" :ModuleSum="ModuleSum" />
+        <div class="container">
+          <div class="row mt-3 row-cols-3">
+            <div v-for="group in groups">
+              <ConfiguratorModule :ModuleId="group.id" :ModuleGroup="group.name" :ModuleItemCount="ModuleItemCount"
+                :ModuleSum="ModuleSum" />
+            </div>
+          </div>
         </div>
       </div>
-      <ConfiguratorProductList />
+      <div class="col-sm-3">
+        <ConfiguratorProductList />
+      </div>
     </div>
   </main>
 </template>
