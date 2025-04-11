@@ -35,7 +35,6 @@ export default {
 </script>
 
 <template>
-    
         <section class="card border-secondary mb-3">
             <ConfiguratorModuleHeader :Id="'#' + ModuleId" :Group="ModuleGroup" />
             <ConfiguratorModuleSubHeader :ItemCount="ModuleItemCount" />
@@ -48,5 +47,4 @@ export default {
             </div>
             <ConfiguratorModuleFooter :Sum="ModuleSum" />
         </section>
-    
 </template>
