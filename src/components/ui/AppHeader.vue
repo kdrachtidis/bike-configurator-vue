@@ -1,6 +1,6 @@
 <script setup>
 import { ref } from 'vue'
-import SwitchLanguage from './ui/SwitchLanguage.vue'
+import SwitchLanguage from '../ui/SwitchLanguage.vue'
 
 function theme(event) {
     alert('Hallo');
