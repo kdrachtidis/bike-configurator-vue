@@ -1,9 +1,9 @@
 <script setup>
-import AppHeader from './components/AppHeader.vue'
-import ConfiguratorHeader from './components/ConfiguratorHeader.vue'
+import AppHeader from './components/ui/AppHeader.vue'
+import ConfiguratorHeader from './components/ui/ConfiguratorHeader.vue'
 import ConfiguratorProductList from './components/basket/ConfiguratorProductList.vue'
 import ConfiguratorModule from './components/module/ConfiguratorModule.vue'
-import bicycle from './components/bicycle.vue'
+import bicycle from './components/ui/bicycle.vue'
 
 const ModuleItemCategory = ["Adapter-Kits", "Cleats & Schuhplatten", "Fahrradkassetten", "Fahrradketten", "Fahrradkurbeln", "Innenlager", "Kettenblätter", "Kettenführungen & Bashguards", "Kleinteile", "Nabenschaltung", "Pedale", "Riemen", "Riemenscheiben", "Singlespeed", "Verschleißsets"]
 
