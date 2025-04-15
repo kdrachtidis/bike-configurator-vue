@@ -9,7 +9,7 @@ const product = ["SHIMANO SLX KASSETTE CS-M7000-11 11-FACH", "SHIMANO ULTEGRA KU
 <template>
     <div class="col">
         <div class="card-body pt-2 pb-2 border-bottom d-flex justify-content-between bg-body">
-            <h6>Shop <span class="badge text-bg-secondary">bike-components.de</span></h6>
+            <h6>{{ $t("message.shop") }} <span class="badge text-bg-secondary">bike-components.de</span></h6>
         </div>
         <div class="card-body p-0">
             <ul class="list-group list-group-flush">
@@ -20,7 +20,7 @@ const product = ["SHIMANO SLX KASSETTE CS-M7000-11 11-FACH", "SHIMANO ULTEGRA KU
             </ul>
         </div>
         <div class="card-body pt-2 pb-2 border-bottom d-flex justify-content-between bg-body">
-            <h6>Shop <span class="badge text-bg-secondary">bike24.de</span></h6>
+            <h6>{{ $t("message.shop") }} <span class="badge text-bg-secondary">bike24.de</span></h6>
         </div>
         <div class="card-body p-0">
             <ul class="list-group list-group-flush">
