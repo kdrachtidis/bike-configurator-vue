@@ -19,21 +19,25 @@ const i18n = createI18n({
     messages:{
         en: {
             message:{
+                /* App Header */
                 title: 'Bike Configurator',
-                collapse: 'Collapse',
-                expand: 'Expand',
                 export: 'Export',
                 load: 'Load',
                 theme: 'Theme',
                 language: 'Language',
                 dark: 'Dark',
                 light: 'Light',
+                /* Template Header */
                 components: 'Components',
                 accessories: 'Accessories',
                 add: 'Add Module',
+                /* Template's Module */
+                expand: 'Expand and Collapse',
+                edit: 'Edit',
                 items: 'Products added',
                 partialsum: 'Partial summary',
                 filter: 'Filter',
+                /* Basket */
                 productlist: 'Product list',
                 shop: 'Shop',
 
@@ -41,42 +45,50 @@ const i18n = createI18n({
         },
         de:{
             message:{
+                /* App Header */
                 title: 'Fahrrad Konfigurator',
-                collapse: 'Zusammenbrechen',
-                expand: 'Erweitern',
                 export: 'Exportieren',
                 load: 'Laden',
                 theme: 'Motiv',
                 language: 'Sprache',
                 dark: 'Dunkel',
                 light: 'Hell',
+                /* Template Header */
+                expand: 'Erweitern und Zusammenbrechen',
+                edit: 'Bearbeiten',
                 components: 'Komponenten',
                 accessories: 'Zubehör',
-                add: 'Baugruppe hinzufügen',
+                add: 'Baugruppe hinzufügen'
+                /* Template's Module */,
                 items: 'Artikel hinzugefügt',
                 partialsum: 'Teilsumme',
                 filter: 'Filtern',
+                /* Basket */
                 productlist: 'Produktliste',
                 shop: 'Shop',
             }
         },
         gr:{
             message:{
+                /* App Header */
                 title: 'Διαμορφωτής ποδηλάτου',
-                collapse: 'Ελαχιστοποίηση',
-                expand : 'Μεγιστοποίηση',
                 export: 'Εξαγωγή',
                 load: 'Φόρτωση',
                 theme: 'MΜοτίβο',
                 language: 'Γλώσσα',
                 dark: 'Σκοτεινό',
                 light: 'Φωτεινό',
+                /* Template Header */
+                expand : 'Ελαχιστοποίηση και Μεγιστοποίηση',
+                edit: 'Επεξεργασία',
                 components: 'Συστατικά',
                 accessories: 'Αξεσουάρ',
                 add: 'Προσθήκη μονάδας',
+                /* Template's Module */
                 items: 'Προϊόντα που προστέθηκαν',
                 partialsum: 'Μερικό σύνολο',
                 filter: 'Φίλτρο',
+                /* Basket */
                 productlist: 'Λίστα προϊόντων',
                 shop: 'Κατάστημα',
             }
