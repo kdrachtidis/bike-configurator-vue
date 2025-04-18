@@ -1,11 +1,17 @@
-import en from './en.json'
-import de from './de.json'
-import gr from './gr.json'
+import { createI18n } from 'vue-i18n'
 
-export const defaultLocale = 'de'
+import enLocale from './en.json'
+import deLocale from './de.json'
+import grLocale from './gr.json'
 
-export const languages = {
-  en: en,
-  de: de,
-  gr: gr
-}
+const defaultLocale = 'de'
+
+export const i18n = createI18n({
+  locale: defaultLocale,
+  fallbackLocale: 'en',
+  messages:{
+      en: enLocale,
+      de: deLocale,
+      gr: grLocale
+  }
+})
